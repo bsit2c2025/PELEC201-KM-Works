@@ -4,7 +4,10 @@ color:white;
 font-family:"Monaco", monospace;
 }
 
-
+ul li{
+    list-style:none;
+    
+}
 
 
 
