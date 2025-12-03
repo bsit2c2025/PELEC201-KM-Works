@@ -1,7 +1,3 @@
-document.getElementById("services_button").addEventListener("click", function() {
-alert("Services!");
-});
+services = document.getElementById("services")
+contacts = document.getElementById("contacts")
 
-document.getElementById("contacts_button").addEventListener("click", function() {
-alert("Contacts!");
-});
