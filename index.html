@@ -11,28 +11,87 @@
 
 
 <body>
-    <!-- Navbar -->
-    <div class="nav">
-        <img src="assets/LOGO_BLACK.png" alt="Logo">
-        <div class="links">
-            <a href="#" onclick="loadPage('home')">HOME</a>
-            <a href="#" onclick="loadPage('about')">ABOUT</a>
-            <a href="#" onclick="loadPage('services')">SERVICES</a>
-            <a href="#" onclick="loadPage('contacts')">CONTACTS</a>
-            <img src="assets/facebook.png" alt="Logo" id="facebookIcon">
+
+   
+        <div class="logonav">
+            <img src="assets/LOGO_BLACK.png" width="80" height="80">
+
+        <nav class="navtabs">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61580809872203" target="_blank"><image src="assets/facebook.png" width = "30" height = "30"></image></a></li>
+            </ul>
+        </nav>
+        </div> 
+
+    <section id="hero" >
+        <img src="assets/LOGO_BLACK.png" width="300" height="350">
+        <h1>KM Workz</h1>
+        <p>A Professional Printing Service in Lucena City that Provides a variety of printing service for  your Visual Needs.</p>
+    
+        <button id="services_button">Services</button>
+        <button id="contacts_button">Contact</button>
+    </section>
+
+    <section id="about">
+        <h1>Founder</h1>
+        <div class="founder">
+            <div class="left-founder">
+                <img src="assets/FOUNDER.jpg">
+            </div>
+            <div class="right-founder">
+                <h3>KM Workz was established by</h3>
+                <h1>Mr. Romulo A. Oserin Jr.</h1>
+                <h4>In July, 2024</h4>
+                <p>The Printing services started as a Social Work service as ICES Coordinator for Dalubhasaan ng Lungsod ng Lucena. After seeing business potential, KM Workz was established and has been doing printing services to date.</p>
+            </div>
+        </div>
+        <img src="assets/LOGO_BLACK.png" height="25" width="25">
+        <h1>Manager</h1>
+        <div class="manager">
+            <div class="left-manager">
+                <img src="assets/MANAGER.jpg">
+            </div>
+            <div class="right-manager">
+                <h3>KM Workz is now ran by</h3>
+                <h1>Mr. John Lester F. Casipit</h1>
+                <h4>April, 2025 - Present</h4>
+                <p>As the Printing services grew from T-Shirts, Uniforms, Caps, to mugs and more, Mr. Oserin needed a helping hand and a manager as he was busy being ICES Coordinator and instructor for Dalubhasaan ng Lungsod ng Lucena.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <h1>Services</h1>
+        <image alt="mugs"></image>
+        <h3>Mugs</h3>
+        <image alt="caps"></image>
+        <h3>Caps</h3>
+        <image alt="shirts"></image>
+        <h3>Shirts</h3>
+
+    </section>
+
+    <section id="inquires">
+        <div class="left-inquires">
+            <h1>Select Product Print Type</h1>
+            <div class="left-button">
+                <button type="button"></button>
+            </div>
+            <image alt="product-image"></image>
+            <div class="right-button">
+                <button type="button">></button>
+            </div>
         </div>
     </div>
-
-
-    
     
     <div id="content">
         <!-- Contents LOAD HERE -->
     </div>
         <script src="script.js"></script>
-
-
-
-    
 </body>
 </html> 
