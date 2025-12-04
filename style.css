@@ -10,7 +10,17 @@ body{
     background-image: url(assets/background_hero.png);
     z-index: -2;
     font-family: 'Jost', sans-serif;
+    
 }
+
+.aboutbg{
+
+ background-image: url(assets/BG_VN.png);
+
+
+}
+
+
 
 .section{
     height: 100vh;
@@ -22,7 +32,12 @@ body{
     align-items: center;
     padding: 20px;
     font-size: 25px;
-    z-index: 99;
+    
+    
+    
+
+    
+   
 
 }
 a{
@@ -94,6 +109,7 @@ a{
     border-style: solid;
     width: 300px;
 }
+
 .containerAbout{
     display: flex;
     justify-content: center;
@@ -116,3 +132,74 @@ a{
     width: 250px;
     padding: 50px;
 }
+
+
+
+
+
+.contactC {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    background-color: rgba(44, 44, 44, 0.479);
+    justify-content: center;
+    
+   
+}
+
+
+.Map img {
+    width: 450px;
+    height: 350px;
+    padding: 10px;
+    margin-top: -30px;
+    
+
+}
+
+.Map h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-box {
+    max-width: 450px;
+}
+
+.info-box h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+/* Info Items */
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.icon {
+    width: 77px;
+    height: 77px;
+    margin-right: 20px;
+    border-end-start-radius: 20%;
+}
+
+.info-item p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+
+
