@@ -140,8 +140,15 @@ a{
 .contactC {
     display: flex;
     justify-content: center;
+
     
 }
+#ServicesC{
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 .contactContainer {
     display: flex;
@@ -201,5 +208,77 @@ a{
     font-weight: 600;
 }
 
+
+.carousel{
+    width: 100%;
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    overflow-x: scroll;
+}
+.carousel::-webkit-scrollbar{
+     display: none;
+}
+
+.carousel::-webkit-scroll-button(right){
+content: "right";
+height: 60px;
+width: 60px;
+}
+
+
+
+.cardService {
+    flex: 0 0 20em;
+    width: 20%;
+    padding: 10px 5px;
+    background: rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(255, 0, 0, 0.4);
+    border-radius: 25px;
+    text-align: center;
+    
+    
+}
+
+.image-box  {
+    width: 140px;
+    height: 220px;
+    margin-bottom: 15px;
+    
+
+
+
+
+
+}
+#capIcon{
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 125px;
+
+}
+
+
+.inquire-btn {
+    margin-top: 20px;
+    width: 180px;
+    padding: 12px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #830707, #7a0000);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+
+
+}
+
+.CapInfo {
+    position: relative;
+    bottom: 40px;
+
+}
 
 
