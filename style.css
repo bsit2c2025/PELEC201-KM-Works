@@ -161,6 +161,9 @@ a{
 }
 
 
+
+
+
 .Map img {
     width: 450px;
     height: 350px;
@@ -176,6 +179,11 @@ a{
     margin-bottom: 20px;
     text-align: center;
 }
+
+
+
+
+
 
 .info-box {
     max-width: 450px;
@@ -196,10 +204,19 @@ a{
 }
 
 .icon {
+    position: relative;
+    left: 5px;
+    width: 69px;
+    height: 69px;
+    margin-right: 20px;
+   border-radius: 10%
+   
+}
+
+.fbicon{
     width: 77px;
     height: 77px;
     margin-right: 20px;
-    border-end-start-radius: 20%;
 }
 
 .info-item p {
@@ -212,7 +229,7 @@ a{
 .carousel{
     width: 100%;
     display: flex;
-    gap: 5em;
+    gap: 2em;
     align-items: center;
     overflow-x: scroll;
 }
